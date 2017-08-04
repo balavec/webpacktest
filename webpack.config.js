@@ -5,7 +5,7 @@ var path = require('path');
 module.exports = {
     context: __dirname,
     devtool: debug ? "inline-sourcemap" : false,
-    entry: "./static/js/scripts_old.js",
+    entry: "./static/js/scripts.js",
     module: {
         loaders: [
             {
